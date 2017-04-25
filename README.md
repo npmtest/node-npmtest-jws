@@ -1,6 +1,6 @@
 # npmtest-jws
 
-#### test coverage for  [jws (v3.1.4)](https://github.com/brianloveswords/node-jws#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-jws.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jws) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jws.svg)](https://travis-ci.org/npmtest/node-npmtest-jws)
+#### basic test coverage for  [jws (v3.1.4)](https://github.com/brianloveswords/node-jws#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-jws.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jws) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jws.svg)](https://travis-ci.org/npmtest/node-npmtest-jws)
 
 #### Implementation of JSON Web Signatures
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-jws/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-jws/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-jws/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-jws/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jws/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jws/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-jws/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-jws/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jws/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jws/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-jws/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-jws/build/coverage.html/index.html)
 
@@ -88,7 +88,8 @@
     "scripts": {
         "test": "make test"
     },
-    "version": "3.1.4"
+    "version": "3.1.4",
+    "bin": {}
 }
 ```
 
